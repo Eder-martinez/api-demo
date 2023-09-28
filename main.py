@@ -19,5 +19,5 @@ async def get_contactos(file: bytes = File("contactos.csv")):
     # TODO read contactos.csv
     # TODO JSON encode contactos.csv
     # TODO save in response
-    response = []
+    response = [file("contactos.csv")]
     return response
